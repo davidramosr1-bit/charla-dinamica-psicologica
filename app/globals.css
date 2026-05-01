@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.27);
+  border-radius: 3px;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background: linear-gradient(135deg, #0f1923 0%, #1a1f2e 50%, #0f1923 100%);
+  color: #f1f5f9;
+  min-height: 100vh;
+}
