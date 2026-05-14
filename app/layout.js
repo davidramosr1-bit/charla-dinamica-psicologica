@@ -1,14 +1,8 @@
 import "./globals.css";
-
 export const metadata = {
-  title: "Ansiedad y Depresión — Charla Psicológica",
-  description: "Comprendiendo nuestras emociones — Psic. Andrea Moys de Alfaro & Psic. Keren de Alvarenga",
+  title: "La salud mental en la Fe",
+  description: "Charla psicológica — Hna. Andrea Moys de Alfaro & Hna. Keren de Alvarenga",
 };
-
 export default function RootLayout({ children }) {
-  return (
-    <html lang="es">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="es"><body>{children}</body></html>;
 }
